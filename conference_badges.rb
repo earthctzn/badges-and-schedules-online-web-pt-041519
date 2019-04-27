@@ -3,4 +3,6 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(names)
+  names.map {badge_maker}
+end
   
