@@ -8,6 +8,6 @@ end
 
 def assign_rooms(names)
   names.collect.with_index do |n, i| 
-    "Hello #{n}! You'll be assigned to room #{i + 1}!"
+    "Hello, #{n}! You'll be assigned to room #{i + 1}!"
   end
 end
