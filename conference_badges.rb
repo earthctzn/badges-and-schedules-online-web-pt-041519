@@ -7,6 +7,6 @@ def batch_badge_creator(names)
 end
 
 def assign_rooms(names)
-  names.collect.with_index {|n, i| batch_badge_creator(n)}
+  names.collect.with_index |n, i|
   return "Hello #{n}! You'll be assigned to room #{i + 1}!"
 end
