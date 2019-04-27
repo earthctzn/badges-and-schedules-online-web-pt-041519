@@ -3,6 +3,6 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(names)
-  names.collect {badge_maker(names)}
+  names.collect {|n| badge_maker(n)}
 end
   
