@@ -5,4 +5,10 @@ end
 def batch_badge_creator(names)
   names.collect {|n| badge_maker(n)}
 end
-  
+
+def assign_rooms(names)
+  rooms = [1..7]
+  names.collect {|n| batch_badge_creator(n)}
+  return "Hello #{n}! You'll be assigned to room #{rooms}!"
+  rooms -= 1 
+end
