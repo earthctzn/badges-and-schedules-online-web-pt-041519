@@ -8,7 +8,7 @@ end
 
 def assign_rooms(names)
   rooms = [1..7]
-  names.collect {|n| batch_badge_creator(n)}
-  return "Hello #{n}! You'll be assigned to room #{rooms}!"
+  names.collect.index {|n| batch_badge_creator(n)}
+  return "Hello #{n}! You'll be assigned to room #{rooms[i]!"
   rooms -= 1 
 end
